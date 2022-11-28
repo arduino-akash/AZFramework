@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		AA81A15529309B5B00E65D0F /* AZFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = AA81A15429309B5B00E65D0F /* AZFramework.docc */; };
 		AA81A15629309B5B00E65D0F /* AZFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AA81A15329309B5B00E65D0F /* AZFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA81A15F29309BBB00E65D0F /* MCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81A15C29309BBB00E65D0F /* MCircleView.swift */; };
+		AA81A16029309BBB00E65D0F /* MMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81A15D29309BBB00E65D0F /* MMapView.swift */; };
+		AA81A16129309BBB00E65D0F /* MContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81A15E29309BBB00E65D0F /* MContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA81A15029309B5B00E65D0F /* AZFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA81A15329309B5B00E65D0F /* AZFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZFramework.h; sourceTree = "<group>"; };
 		AA81A15429309B5B00E65D0F /* AZFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AZFramework.docc; sourceTree = "<group>"; };
+		AA81A15C29309BBB00E65D0F /* MCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCircleView.swift; sourceTree = "<group>"; };
+		AA81A15D29309BBB00E65D0F /* MMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMapView.swift; sourceTree = "<group>"; };
+		AA81A15E29309BBB00E65D0F /* MContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 		AA81A15229309B5B00E65D0F /* AZFramework */ = {
 			isa = PBXGroup;
 			children = (
+				AA81A15C29309BBB00E65D0F /* MCircleView.swift */,
+				AA81A15E29309BBB00E65D0F /* MContentView.swift */,
+				AA81A15D29309BBB00E65D0F /* MMapView.swift */,
 				AA81A15329309B5B00E65D0F /* AZFramework.h */,
 				AA81A15429309B5B00E65D0F /* AZFramework.docc */,
 			);
@@ -132,6 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA81A16129309BBB00E65D0F /* MContentView.swift in Sources */,
+				AA81A16029309BBB00E65D0F /* MMapView.swift in Sources */,
+				AA81A15F29309BBB00E65D0F /* MCircleView.swift in Sources */,
 				AA81A15529309B5B00E65D0F /* AZFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
